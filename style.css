@@ -1,0 +1,185 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: url('img.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero div{
+    font-size: larger;
+}
+
+/* Search Bar */
+.search-bar {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 70%;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Featured Job Listings */
+.featured-jobs {
+    padding: 50px 0;
+}
+
+.featured-jobs h2 {
+    text-align: center;
+}
+
+/* Why Work in Japan? */
+.why-work-in-japan {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.why-work-in-japan div h2 {
+    margin-left: 450px;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reason {
+    flex: 1;
+    text-align: center;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px 0;
+}
+
+.testimonial {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Explore Living in Japan */
+.explore-living-in-japan {
+    padding: 50px 0;
+}
+
+.explore-living-in-japan img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Latest Blog Posts */
+.latest-blog-posts {
+    padding: 50px 0;
+}
+
+.latest-blog-posts h2 {
+    text-align: center;
+}
+
+/* About Us */
+.about-us {
+    padding: 50px 0;
+}
+
+.about-us p {
+    text-align: center;
+}
+
+/* Contact Us */
+.contact-us {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.form-group {
+    /* background: #f4f4f4; */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.form-group input, textarea {
+    padding: 10px;
+    width: 70%;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background: black;
+    color: #fff;
+    border: 2px solid black;
+    /* border-radius: 10%; */
+    cursor: pointer;
+    width: 10%;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
